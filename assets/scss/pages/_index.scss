@@ -1,0 +1,156 @@
+//--------------- header-style-one section style -------////
+
+.header-style-one-section {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+//--------------- about section style -------////
+
+.about-section {
+  .video-box {
+    margin: auto;
+    max-width: 840px;
+    height: 445px;
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+    video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9;
+      object-fit: fill;
+    }
+    #video-play-btn {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      background-color: transparent;
+      i {
+        font-size: 72px;
+        color: $color-white;
+        opacity: 0.7;
+      }
+    }
+  }
+  .about-content {
+    margin-top: 45px;
+    span {
+      font-family: $font-play-italic;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      color: $color-black;
+    }
+
+    .title {
+      font-family: $font-play;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 125%;
+      color: $color-black;
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+
+    .about {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: $color-black;
+      text-align: left;
+      // max-width: 400px;
+    }
+  }
+}
+
+//--------------- best book section style -------////
+.best-book-section {
+  // &.section-padding {
+  //   padding-bottom: 60px;
+  // }
+  background: #f6f6f6;
+}
+
+//--------------- want to get section style -------////
+
+.want-to-get-section {
+  padding: 100px 0;
+  .content {
+    max-width: 603px;
+    margin: auto;
+    .title {
+      font-family: $font-play;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 72px;
+      line-height: 120%;
+      text-align: center;
+      letter-spacing: -0.01em;
+      color: $color-black;
+    }
+
+    .des {
+      font-family: $font-apercu;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      color: #7a808a;
+      margin-top: 24px;
+      margin-bottom: 36px;
+    }
+    .subscribe {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  .marquee-area {
+    margin-top: 75px;
+    min-height: 420px;
+    overflow: hidden;
+    .img-gallery {
+      position: relative;
+
+      .marquee-content {
+        display: flex;
+        justify-content: space-around;
+        min-width: 100vw;
+        // margin: 0 50px;
+
+        .img-box {
+          &:nth-child(2) {
+            margin-top: 180px;
+          }
+
+          &:nth-child(3),
+          &:nth-child(6) {
+            margin-top: 95px;
+          }
+
+          &:nth-child(4) {
+            margin-top: 215px;
+            margin-left: 14px;
+          }
+
+          &:nth-child(7) {
+            margin-top: 190px;
+          }
+        }
+      }
+    }
+  }
+}

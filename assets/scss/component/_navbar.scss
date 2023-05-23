@@ -1,0 +1,87 @@
+.navbar-area {
+  position: absolute;
+  left: 0;
+  top: 0%;
+  width: 100%;
+  z-index: 10;
+  .navbar {
+    padding: 30px 50px;
+  }
+  .nav-item {
+    &.active {
+      .nav-link {
+        position: relative;
+        transition: all 0.3s ease;
+        &::after {
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          bottom: 22%;
+          content: "";
+          transition: all 0.3s ease;
+          width: 90%;
+          height: 2%;
+          background-color: $color-white;
+        }
+      }
+    }
+    .nav-link {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 200%;
+      color: $color-white;
+      margin: 0 18px;
+      white-space: nowrap;
+      position: relative;
+      transition: all 0.3s ease;
+      display: inline-block;
+      &:hover {
+        &::after {
+          width: 90%;
+        }
+      }
+      &::after {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 22%;
+        content: "";
+        transition: all 0.3s ease;
+        width: 0%;
+        height: 2%;
+        background-color: $color-white;
+      }
+    }
+  }
+  .button-group {
+    a {
+      outline: none;
+      border-radius: 225px;
+      color: $color-white;
+      position: relative;
+      font-weight: 500;
+      font-size: 20px;
+      border: 1px solid $color-white;
+      position: relative;
+      transition: all 0.3s ease;
+      &:active {
+        outline: none;
+      }
+      &.login {
+        transition: all 0.3s ease;
+        min-height: 44px;
+        min-width: 91px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: $color-white;
+        &:hover {
+          border-color: $color-hover;
+          background-color: $color-hover;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

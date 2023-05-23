@@ -1,0 +1,22 @@
+.hero-area {
+  padding-top: 227px;
+  padding-bottom: 203px;
+  .hero-content {
+    .hero-subtitle {
+      font-family: $font-play;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      color: $color-white;
+    }
+    .hero-title {
+      margin-bottom: 25px;
+      // white-space: nowrap;
+    }
+    .hero-text {
+      max-width: 827px;
+      margin: auto;
+    }
+  }
+}

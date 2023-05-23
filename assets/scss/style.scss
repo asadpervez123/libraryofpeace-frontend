@@ -1,0 +1,21 @@
+// global styles
+@import "global";
+
+
+// import components
+@import "./component/preloader";
+@import "./component/navbar";
+@import "./component/hero";
+@import "./component/single-books-item";
+@import "./component/footer";
+@import "./component/copyright";
+@import "./component/search-form";
+
+
+// import pages styles
+@import "pages/index";
+
+
+// import responsive styles
+
+@import "responsive";

@@ -1,0 +1,612 @@
+/* Large Device Layout wide:  1200px. */
+@media only screen and (max-width: 1200px) {
+  .about-section {
+    .about-content .title {
+      font-size: 44px;
+    }
+  }
+}
+
+/* Tablet Layout wide: 991px. */
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    transition: all 0.3s ease-in-out;
+    background-color: #1d7b84;
+    border-radius: 4px;
+    margin-top: 20px;
+    opacity: 0;
+    &.show {
+      opacity: 1;
+      padding-top: 40px;
+      padding-bottom: 65px;
+    }
+  }
+  .navbar-toggler {
+    border: 1px solid white;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    transition: all 0.2s ease-in-out;
+
+    &.collapsed {
+      background-color: transparent;
+      transition: all 0.2s ease-in-out;
+      .navbar-toggler-icon {
+        background-color: #ffffff;
+      }
+    }
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      content: "";
+      background: no-repeat center center;
+      background-size: 100% 100%;
+      background-color: #1d7b84;
+      height: 2px;
+      border-radius: 4px;
+      &:nth-child(even) {
+        margin: 5px 0;
+      }
+    }
+  }
+  .navbar-nav {
+    margin: 20px 0;
+  }
+  .small-none {
+    display: none;
+  }
+  .navbar-nav .nav-item {
+    padding: 10px;
+  }
+  .navbar-area .button-group {
+    width: 100%;
+  }
+  .header-style-one-section .navbar-area .nav-item {
+    text-align: center;
+  }
+  .header-style-one-section .navbar-area .nav-item .nav-link {
+    display: inline-block;
+  }
+  .header-style-one-section .navbar-area .nav-item .nav-link:hover::after {
+    width: 100%;
+  }
+  .header-style-one-section .navbar-area .nav-item .nav-link::after {
+    bottom: 8%;
+  }
+  .hero-title {
+    font-size: 73px;
+  }
+  .want-to-get-section .content .title {
+    font-size: 50px;
+    width: 455px;
+    margin: auto;
+  }
+  .header-style-one-section .hero-area .search-form form {
+    width: 100%;
+  }
+  .hero-text {
+    font-size: 20px;
+  }
+  .about-section .about-content {
+    .title {
+      margin-top: 15px;
+      margin-bottom: 40px;
+    }
+    .about {
+      padding: 0px;
+      margin-top: 0px;
+      width: auto;
+    }
+    .btn-style-two {
+      margin-top: 25px;
+    }
+  }
+  .about-section .left {
+    min-width: 100%;
+    margin-left: 0px;
+    text-align: left;
+  }
+}
+
+/* Tablet Layout landscape wide: 768px. */
+
+@media only screen and (max-width: 768px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+  .single-books-item {
+    margin-top: 48px;
+  }
+  .section-title .title {
+    font-size: 40px;
+  }
+  .hero-area .hero-content .hero-title {
+    font-size: 52px;
+    margin-bottom: 10px;
+  }
+  .search-form-area .search-form {
+    margin-top: 40px;
+  }
+  .want-to-get-section .content .title {
+    font-size: 40px;
+    width: 455px;
+    margin: auto;
+  }
+  .search-form-area .popular-search .search-item {
+    justify-content: left;
+  }
+  .about-section .about-content .title {
+    font-size: 40px;
+  }
+  .hero-area {
+    padding-top: 207px;
+    padding-bottom: 81px;
+  }
+  .header-style-one-section .hero-area .hero-content h3 {
+    font-size: 50px;
+  }
+  .header-style-one-section .hero-area .search-form .popular-search li {
+    white-space: nowrap;
+  }
+  .about-section .content .title {
+    font-size: 40px;
+  }
+  .footer-section.footer-content .links,
+  .footer-section.footer-content .community {
+    width: 30%;
+  }
+  .footer-section.footer-content div {
+    width: 50%;
+  }
+  .hero-area .hero-content .hero-subtitle {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .search-form-area .search-form .icon {
+    right: 3%;
+    top: 49%;
+  }
+  .copyright-section .socials {
+    justify-content: center;
+  }
+  .copyright-section .right {
+    text-align: center;
+  }
+  .footer-section .footer-content .footer-item {
+    &:nth-child(3),
+    &:nth-child(4) {
+      width: 30%;
+      margin-top: 20px;
+    }
+    &:nth-child(1) {
+      width: 50%;
+    }
+    &:nth-child(2) {
+      width: 30%;
+    }
+  }
+  .want-to-get-section .content {
+    .title {
+      font-size: 40px;
+      width: 350px;
+    }
+    .des {
+      font-size: 20px;
+    }
+    .subscribe {
+      display: inline;
+      margin-left: auto;
+    }
+  }
+  .want-to-get-section {
+    padding-bottom: 70px;
+  }
+  .about-section .video-box {
+    height: 40vh;
+    width: 100%;
+  }
+  .search-form-area .popular-search .search-item li {
+    margin-bottom: 10px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .single-books-item .content .book-title {
+    font-size: 22px;
+  }
+  .single-books-item .content .book-des {
+    font-size: 14px;
+  }
+  .copyright-items {
+    flex-wrap: wrap;
+  }
+  .copyright-item {
+    width: 100%;
+    text-align: center;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  .copyright-item {
+    &:nth-child(2) {
+      margin-top: 5px;
+    }
+  }
+}
+
+/* Tablet Layout wide: 668px. */
+
+@media only screen and (max-width: 668px) {
+  .header-style-one-section .hero-area .search-form form input {
+    width: calc(90% - 50px);
+  }
+  .want-to-get-section .marquee-area {
+    margin-top: 40px;
+    min-height: 50vh;
+    overflow: hidden;
+  }
+  .about-section .video-box #video-play-btn i {
+    font-size: 40px;
+  }
+  .single-books-item .content .btn-style-one,
+  .single-books-item .content .btn-style-two {
+    max-width: 110px;
+  }
+  .about-section .about-content .btn-style-two {
+    font-size: 16px;
+  }
+}
+
+/* Small Device Layout wide: 599px. */
+
+@media only screen and (max-width: 599px) {
+  .header-style-one-section .hero-area .search-form-area .popular-search {
+    flex-direction: column;
+  }
+  .section-title .title {
+    font-size: 36px;
+  }
+  .section-title .subtitle {
+    font-size: 21px;
+  }
+  .header-style-one-section
+    .hero-area
+    .search-form-area
+    .popular-search
+    li
+    + li {
+    margin-left: 10px;
+    text-align: left;
+  }
+  .header-style-one-section .hero-area .search-form form .icon {
+    right: 4%;
+  }
+  .about-section .content .title {
+    font-size: 47px;
+  }
+  .search-form-area .search-form {
+    height: 50px;
+  }
+  .search-form-area .search-form .icon {
+    height: 40px;
+    width: 40px;
+    right: 2%;
+  }
+  .search-form-area .search-form input {
+    font-size: 17px;
+    width: 85%;
+  }
+  .search-form-area .popular-search .search-title {
+    margin-bottom: 10px;
+  }
+  .footer-section .footer-content .footer-item {
+    &:nth-child(3),
+    &:nth-child(4) {
+      width: 30%;
+      margin-top: 0px;
+    }
+    &:nth-child(1) {
+      width: 100%;
+    }
+    &:nth-child(2) {
+      width: 30%;
+    }
+  }
+  .footer-section .footer-content .about p {
+    max-width: 100%;
+    margin-bottom: 45px;
+  }
+  .want-to-get-section .content .title {
+    font-size: 54px;
+  }
+  .about-section .about-content .title {
+    font-size: 36px;
+  }
+  .about-section .about-content .about {
+    padding: 0;
+  }
+  .want-to-get-section .content .title {
+    font-size: 36px;
+  }
+  .want-to-get-section .content .des {
+    margin-top: 18px;
+    margin-bottom: 25px;
+  }
+
+  .header-style-one-section
+    .hero-area
+    .search-form-area
+    .popular-search
+    li
+    + li {
+    margin-left: 10px;
+    text-align: left;
+  }
+  .navbar-nav .nav-item {
+    padding: 0px;
+  }
+  .navbar-area .button-group a.login {
+    min-height: auto;
+    line-height: normal;
+    padding: 10px 25px;
+  }
+}
+/* Small Device Layout wide: 520px. */
+
+@media only screen and (max-width: 520px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+  .marquee-content {
+    .img-box {
+      display: inline;
+      &:nth-child(2) {
+        margin-top: 0px;
+      }
+
+      &:nth-child(3),
+      &:nth-child(6) {
+        margin-top: 0px;
+      }
+
+      &:nth-child(4) {
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+
+      &:nth-child(7) {
+        margin-top: 0px;
+      }
+    }
+  }
+  .hero-area .hero-content .hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 65px;
+  }
+  .about-section .about-content .title {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .search-form-area .search-form {
+    margin-top: 35px;
+  }
+  .header-style-one-section .hero-area .hero-content h3 {
+    font-size: 45px;
+  }
+  .footer-section.footer-content div {
+    width: 100%;
+  }
+  .footer-section.footer-content .footer-item li:first-child {
+    margin-top: 25px;
+  }
+  .hero-area .hero-content .hero-subtitle {
+    font-size: 40px;
+  }
+  .hero-text {
+    font-size: 17px;
+  }
+  .search-form-area .search-form input {
+    width: 85%;
+  }
+  .footer-section .footer-content .footer-item {
+    &:nth-child(3),
+    &:nth-child(4) {
+      width: 50%;
+    }
+    &:nth-child(1) {
+      width: 100%;
+    }
+    &:nth-child(4) {
+      margin-top: 20px;
+    }
+  }
+  .about-section .video-box {
+    height: 30vh;
+    width: 100%;
+  }
+  .about-section.section-padding {
+    padding: 65px 0;
+  }
+  .footer-section .footer-content .footer-item .links li {
+    margin-bottom: 10px;
+  }
+  .footer-section .footer-content .footer-item .title {
+    margin-bottom: 15px;
+  }
+
+  .navbar-collapse.show {
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 45px;
+  }
+}
+
+/* Small Device Layout wide: 480px. */
+
+@media only screen and (max-width: 480px) {
+  .section-title .subtitle {
+    font-size: 19px;
+  }
+  .navbar-area .navbar {
+    padding: 30px 0px;
+  }
+
+  .header-style-one-section .hero-area .hero-content h3 {
+    font-size: 40px;
+  }
+  .hero-area .hero-content .hero-subtitle {
+    font-size: 24px;
+  }
+  .hero-area .hero-content .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-area .hero-content .hero-title {
+    font-size: 41px;
+    margin-bottom: 30px;
+    line-height: 40px;
+  }
+  .search-form-area .search-form .icon {
+    right: 3%;
+  }
+  .search-form-area .search-form input {
+    width: 80%;
+  }
+  .copyright-section .middle p {
+    white-space: inherit;
+  }
+  .want-to-get-section .content {
+    .des {
+      font-size: 18px;
+    }
+  }
+  .search-form-area .popular-search .search-item {
+    justify-content: center;
+  }
+  .section-title .title {
+    font-size: 34px;
+  }
+  .want-to-get-section .content .subscribe {
+    font-size: 16px;
+  }
+  .footer-section .footer-content .footer-item .title {
+    font-size: 18px;
+  }
+}
+
+/* Small Device Layout wide: 420px. */
+
+@media only screen and (max-width: 420px) {
+  .hero-area .hero-content .hero-title {
+    font-size: 37px;
+    margin-bottom: 22px;
+    line-height: 31px;
+  }
+  .single-books-item {
+    margin-top: 35px;
+  }
+  .about-section .about-content span {
+    font-size: 22px;
+  }
+
+  .about-section .about-content .title {
+    font-size: 30px;
+  }
+  .search-form-area .search-form {
+    margin-top: 30px;
+  }
+  .hero-area {
+    padding-top: 150px;
+    padding-bottom: 85px;
+  }
+  .want-to-get-section .content .title {
+    font-size: 30px;
+    width: auto;
+  }
+  .want-to-get-section .content .des {
+    margin-top: 16px;
+    margin-bottom: 18px;
+  }
+  .btn-style-two {
+    padding: 10px 25px;
+  }
+  .single-books-item .content .btn-style-one {
+    padding: 10px 20px;
+  }
+}
+
+/* Mobile Device Layout wide: 380px. */
+
+@media only screen and (max-width: 380px) {
+  .header-style-one-section .hero-area .hero-content h3 {
+    font-size: 30px;
+  }
+  .hero-area .hero-content .hero-title {
+    font-size: 42px;
+    margin-bottom: 22px;
+    line-height: 52px;
+  }
+  .footer-section .footer-content {
+    justify-content: space-around;
+  }
+  .footer-section .footer-content .footer-item {
+    &:nth-child(3),
+    &:nth-child(2) {
+      width: 49%;
+      margin-top: 20px;
+    }
+    &:nth-child(4) {
+      width: 99%;
+    }
+  }
+  .want-to-get-section .content .title {
+    font-size: 32px;
+    width: auto;
+  }
+  .want-to-get-section .content .des {
+    font-size: 15px;
+  }
+
+  .hero-area .hero-content .hero-subtitle {
+    font-size: 22px;
+  }
+  .single-books-item .img-box {
+    margin-bottom: 20px;
+  }
+  .navbar-nav .nav-item {
+    padding: 0px;
+  }
+}
+
+/* Mobile Device Layout wide: 340px. */
+
+@media only screen and (max-width: 340px) {
+  .hero-area .hero-content .hero-title {
+    font-size: 27px;
+    margin-bottom: 22px;
+    line-height: 29px;
+  }
+  .search-form-area .search-form .icon {
+    right: 4%;
+    top: 50%;
+  }
+  .search-form-area .search-form input {
+    width: 75%;
+  }
+}
+
+/* Mobile Device Layout wide: 320px. */
+
+@media only screen and (max-width: 320px) {
+  .hero-title {
+    font-size: 26px;
+  }
+  .hero-area .hero-content .hero-subtitle {
+    font-size: 20px;
+  }
+}
