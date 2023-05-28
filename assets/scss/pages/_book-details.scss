@@ -1,0 +1,212 @@
+// book details section style
+.book-details-section {
+  padding: 80px 0;
+  margin-top: -470px;
+  .img-with-intro-area {
+    .img-box {
+      img {
+        filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.12));
+      }
+    }
+    .book-intro {
+      margin-left: 45px;
+      .book-title {
+        font-family: $font-play;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 125%;
+        color: #1c1f2c;
+        max-width: 470px;
+      }
+      .selection {
+        font-family: $font-play;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #1c1f2c;
+        margin-top: 20px;
+        display: inline-block;
+      }
+      .des {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1c1f2c;
+        margin-top: 24px;
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li {
+          margin-top: 12px;
+          width: 40%;
+          white-space: nowrap;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 135%;
+          color: #231f1e;
+          opacity: 0.85;
+          display: flex;
+          align-items: center;
+          img {
+            display: inline-block;
+            margin-right: 8px;
+          }
+          span {
+            font-weight: 500;
+            opacity: 1;
+          }
+        }
+      }
+      .button-groups {
+        margin: 60px 0;
+        display: flex;
+        margin-top: 102px;
+        li {
+          margin-right: 10px;
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            color: #1c1f2c;
+            border-color: #1c1f2c;
+            font-size: 16px;
+            border-width: 1px;
+            padding: 11px 25px;
+            background-color: transparent;
+            svg {
+              margin-right: 8px;
+              path {
+                stroke: #1c1f2c;
+              }
+            }
+            &:hover {
+              color: $color-white;
+              border-color: $color-hover;
+              background-color: $color-hover;
+              svg {
+                path {
+                  stroke: $color-white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .description-area {
+    margin-top: 70px;
+    .des-item {
+      &.language {
+        margin-top: 10px;
+      }
+      .des-title {
+        font-family: $font-play;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 125%;
+        color: #1c1f2c;
+        margin-bottom: 20px;
+      }
+      .des-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1c1f2c;
+        // width: 100%;
+        // min-width: 561px;
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+// learn from this book table section style
+.learn-table-section {
+  background: #f6f6f6;
+  .learn-table-box {
+    overflow-x: scroll;
+    .title {
+      font-family: $font-play;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 125%;
+      color: #1c1f2c;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    table {
+      &.learn-table {
+        width: 100%;
+        thead {
+          tr {
+            th {
+              white-space: nowrap;
+              padding: 16px 20px;
+              text-align: center;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 135%;
+              color: #231f1e;
+              &:first-child {
+                text-align: left;
+              }
+              &:last-child {
+                display: none;
+              }
+            }
+          }
+        }
+        tbody {
+          tr {
+            border-top: 1px dashed #1c1f2c;
+            &:last-child {
+              border-bottom: 1px dashed #1c1f2c;
+            }
+            td {
+              padding: 25px 20px;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 135%;
+              color: #231f1e;
+              &:first-child {
+                width: 55%;
+              }
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(4) {
+                width: 15%;
+                text-align: center;
+              }
+              .btn-style-one {
+                color: #231f1e;
+                border-color: #231f1e;
+                &:hover {
+                  color: $color-white;
+                  border-color: $color-hover;
+                }
+              }
+            }
+            &:nth-child(odd) {
+              background: #ededed;
+            }
+          }
+        }
+      }
+    }
+  }
+  .pagination-box {
+    margin-top: 60px;
+    margin-bottom: -15px;
+    li {
+      border-color: #e8e8e8;
+      background-color: #e8e8e8;
+    }
+  }
+}

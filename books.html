@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Center For Peace and Spirituality - USA</title>
+    <!-- favicon img -->
+    <link rel="icon" type="image/x-icon" href="assets/img/index/logo.png" />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Bootstrap css  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- jquery ion-slier css-->
+    <link rel="stylesheet" href="assets/css/ion-slider.min.css" />
+    <!-- jquery nice select css -->
+    <link rel="stylesheet" href="assets/css/jquery-nice-select.min.css" />
+    <!-- Custom css styles -->
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+  </head>
+  <body>
+    <!-- preloader section start -->
+    <div class="preloader">
+      <div class="main-loader">
+        <span class="loader1"></span>
+        <span class="loader2"></span>
+        <span class="loader3"></span>
+      </div>
+    </div>
+    <!-- preloader section end -->
+
+    <!-- header section start here -->
+    <section
+      class="header-style-one-section"
+      style="background-image: url(./assets/img/books/header-bg.png)"
+    >
+      <!-- navbar  start here -->
+      <div class="navbar-area width-small">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="./">
+              <img src="./assets/img/index/logo.png" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./">HOME</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="/books.html">BOOKS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/periodicals.html">PERIODICALS</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <div
+                  class="button-group d-flex justify-content-center align-items-center"
+                >
+                  <a
+                    href="./login.html"
+                    class="btn login my-2 my-sm-0"
+                    type="button"
+                  >
+                    SIGN IN
+                  </a>
+                </div>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- navbar  end here  -->
+
+      <!-- hero area start here  -->
+      <div class="hero-area hero-style-two">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-12 justify-content-center align-items-center text-center"
+            >
+              <div class="search-form-area">
+                <form class="search-form">
+                  <input type="text" placeholder="Search here..." />
+                  <button class="icon" type="submit">
+                    <svg
+                      width="25"
+                      height="24"
+                      viewBox="0 0 25 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_530_22398)">
+                        <path
+                          d="M10.5 17C14.366 17 17.5 13.866 17.5 10C17.5 6.13401 14.366 3 10.5 3C6.63401 3 3.5 6.13401 3.5 10C3.5 13.866 6.63401 17 10.5 17Z"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M21.5 21L15.5 15"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_530_22398">
+                          <rect
+                            width="24"
+                            height="24"
+                            fill="white"
+                            transform="translate(0.5)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </button>
+                </form>
+                <div class="popular-search">
+                  <span class="search-title">Popular search:</span>
+                  <ul class="search-item">
+                    <li>
+                      <a class="btn-style-one" href="#0">Raz-e-Hayat</a>
+                    </li>
+                    <li>
+                      <a class="btn-style-one" href="#0">Remembrance of god</a>
+                    </li>
+                    <li>
+                      <a class="btn-style-one" href="#0">What is Islam</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- hero area end here -->
+    </section>
+    <!-- header section end here  -->
+
+    <!-- Book details section start here -->
+    <section class="books-details-section section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- left side filter content start  -->
+          <div class="col-lg-4 col-md-5 mobile-none">
+            <div class="left-side-filter-content">
+              <!-- year slider  -->
+              <div class="year-range-slider">
+                <h2 class="title">Year</h2>
+                <hr />
+                <div class="slider-box">
+                  <input
+                    type="text"
+                    class="js-range-slider"
+                    name="my_range"
+                    value=""
+                    data-skin="round"
+                    data-type="double"
+                    data-min="1997"
+                    data-max="2023"
+                    data-grid="false"
+                  />
+
+                  <div class="output">
+                    <input
+                      readonly
+                      type="number"
+                      value="1997"
+                      class="from val-show"
+                    />
+                    <input
+                      readonly
+                      type="number"
+                      value="2023"
+                      class="to val-show"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- catagories filter -->
+              <div class="catagories filter-select-item">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <button
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Categories <i class="fa-solid fa-chevron-up"></i>
+                      </button>
+                    </div>
+
+                    <div
+                      id="collapseOne"
+                      class="collapse show"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <form class="catagroy-form">
+                          <label class="control control--checkbox"
+                            >Islamic History
+                            <div class="name">
+                              <input type="checkbox" checked="checked" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Islamic Spirituality
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Islam and the modern age
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Religion and Science
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Peace in Islam
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >True face of islam
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Islamic History
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label
+                            id="select-all"
+                            class="control control--checkbox"
+                            >Select All
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                          </label>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- language filter -->
+              <div class="languages filter-select-item">
+                <div class="accordion" id="accordionExample-two">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <button
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse-two"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Language <i class="fa-solid fa-chevron-up"></i>
+                      </button>
+                    </div>
+                    <div
+                      id="collapse-two"
+                      class="collapse show"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample-two"
+                    >
+                      <div class="card-body">
+                        <form class="language-form">
+                          <div class="custom-checkbox">
+                            <label class="control control--checkbox"
+                              >Arabic
+                              <div class="name">
+                                <input type="checkbox" checked="checked" />
+                                <div class="control__indicator"></div>
+                              </div>
+                              <div class="length">
+                                <p>(10)</p>
+                              </div>
+                            </label>
+                          </div>
+                          <label class="control control--checkbox"
+                            >English
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Spanish
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Urdu
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                          <label class="control control--checkbox"
+                            >Bangla
+                            <div class="name">
+                              <input type="checkbox" />
+                              <div class="control__indicator"></div>
+                            </div>
+                            <div class="length">
+                              <p>(10)</p>
+                            </div>
+                          </label>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- reset btn -->
+              <button id="reset-filter-btn">
+                <img src="assets/img/books/resetbtn.svg" alt="btn" />
+                Reset All
+              </button>
+            </div>
+          </div>
+          <!-- left side filter content end  -->
+
+          <!-- right side main content start  -->
+          <div class="col-lg-8 col-md-7 col-sm-12">
+            <div class="right-side-content">
+              <div class="all-books">
+                <div class="top-content">
+                  <h2 class="title">All Books</h2>
+                  <select>
+                    <option data-display="Sort By">Sort By</option>
+                    <option value="ascending">Ascending</option>
+                    <option value="descending">Descending</option>
+                    <option value="recent">Recent</option>
+                    <option value="percentage">Percentage</option>
+                  </select>
+                </div>
+                <div class="books-items-box">
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/01.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">Discovering The Quran</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/02.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">Words of the Prophet Muhammad</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/03.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">WOMEN INISLAMIC SHARI’AH</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/04.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">THE TEACHINGS OF ISLAM</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/05.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">THE WAY TO FIND GOD</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/06.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">UNIFORM CIVIL CODE</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/07.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">THE SEEKER’S GUIDE</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/08.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">SPRIT OF RAMADAN</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/09.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">REIAZLIATION OF GOD</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/10.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">100 PRINCIPLES FOR PURPOSEFUL</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/01.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">Discovering The Quran</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single-book-item">
+                    <div class="img-box">
+                      <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                      <img src="assets/img/books/12.png" alt="book-cover-img" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title">Dawah made simple</h3>
+                      <ul class="des">
+                        <li>Published: <span>Feb 9,2023</span></li>
+                        <li>Total words: <span>103 K</span></li>
+                        <li>Hours to Read: <span>12.1</span></li>
+                        <li>Pages: <span>265</span></li>
+                      </ul>
+                      <a href="/book-details.html" class="btn btn-style-one"
+                        >Read Now</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="d-none pagination-box">
+                  <ul class="pagination">
+                    <li>
+                      <a href="#0"><i class="fa-solid fa-chevron-left"></i></a>
+                    </li>
+                    <li class="active">
+                      <a href="#0">1</a>
+                    </li>
+                    <li>
+                      <a href="#0">2</a>
+                    </li>
+                    <li>
+                      <a href="#0">3</a>
+                    </li>
+                    <li>
+                      <a href="#0">4</a>
+                    </li>
+                    <li>
+                      <a href="#0"><i class="fa-solid fa-chevron-right"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right side main content end  -->
+        </div>
+      </div>
+    </section>
+    <!-- Book details section end here -->
+
+    <!-- footer section start here  -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-item">
+            <div class="about">
+              <img src="assets/img/index/logo-color.png" alt="logo" />
+              <p>
+                Maulana Wahiduddin Khan is an Islamic spiritual scholar who has
+                adopted peace as the mission of his life. Known for his Gandhian
+                views, he considers non-violence as the only method to achieve
+                success.
+              </p>
+            </div>
+          </div>
+          <div class="footer-item">
+            <h3 class="title">Links</h3>
+            <ul class="links">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Menus</a>
+              </li>
+              <li>
+                <a href="#">Events</a>
+              </li>
+              <li>
+                <a href="#">Other</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3 class="title">Books</h3>
+            <ul class="links">
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Orders & Returns</a>
+              </li>
+              <li>
+                <a href="#">Videos</a>
+              </li>
+              <li>
+                <a href="#">Reservation</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h3 class="title">Community</h3>
+            <ul class="links">
+              <li>
+                <a href="#">Issues</a>
+              </li>
+              <li>
+                <a href="#">Discussions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end here  -->
+
+    <!-- copyright section start here  -->
+    <section class="copyright-section">
+      <div class="container">
+        <div class="copyright-items justify-content-between">
+          <div class="copyright-item">
+            <ul class="socials">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-skype"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-item">
+            <div class="middle">
+              <p>© 2023 Peace and Spirituality | All rights reserved.</p>
+            </div>
+          </div>
+          <div class="copyright-item">
+            <div class="right text-md-center text-sm-center text-lg-right">
+              <a href="#0">Terms & Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- copyright section end here  -->
+
+    <!-- All js file goes here -->
+    <!-- Jquery js  -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <!-- Popper js  -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap js  -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Jquery ion slider js  -->
+    <script src="assets/js/jquery-ion-slider.min.js"></script>
+    <!-- jquery nice select -->
+    <script src="assets/js/jquery-nice-select.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

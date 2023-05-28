@@ -1,0 +1,132 @@
+.filter-select-item {
+  background: $color-white;
+  border: 1px solid #ebebeb;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  &.year {
+    .control {
+      margin-bottom: 18px;
+    }
+  }
+  .card {
+    .card-header {
+      padding: 0;
+      button {
+        background-color: $color-white;
+        padding: 20px 16px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 18px;
+        color: #111111;
+        align-items: center;
+        i {
+          transition: all 0.3s ease;
+        }
+        &.collapsed {
+          i {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+  .control {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    // line-height: 25px;
+    color: #7a808a;
+    text-transform: capitalize;
+
+    input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+  }
+
+  .control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    background: transparent;
+    border: 2px solid #7a808a;
+  }
+
+  .control--radio .control__indicator {
+    border-radius: 50%;
+  }
+
+  .control {
+    &:hover input ~ .control__indicator {
+      background: $color-hover;
+      border-color: transparent;
+    }
+
+    input {
+      &:checked ~ .control__indicator {
+        background: $color-hover;
+        border-color: transparent;
+      }
+    }
+
+    &:hover input:not([disabled]):checked ~ .control__indicator {
+      background: $color-hover;
+    }
+
+    input {
+      &:checked:focus ~ .control__indicator {
+        background: $color-hover;
+      }
+
+      &:disabled ~ .control__indicator {
+        pointer-events: none;
+      }
+    }
+  }
+
+  .control__indicator:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .control input:checked ~ .control__indicator:after {
+    display: block;
+  }
+
+  .control--checkbox {
+    .control__indicator:after {
+      left: 6px;
+      top: 1px;
+      width: 6px;
+      height: 11px;
+      border: solid $color-white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(46deg);
+    }
+  }
+
+  .control--radio {
+    .control__indicator:after {
+      left: 7px;
+      top: 7px;
+      height: 6px;
+      width: 6px;
+      border-radius: 50%;
+      background: $color-white;
+    }
+  }
+}

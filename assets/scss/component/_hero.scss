@@ -1,6 +1,11 @@
 .hero-area {
   padding-top: 227px;
   padding-bottom: 203px;
+  &.hero-style-two {
+    padding-top: 115px;
+    padding-bottom: 155px;
+  }
+
   .hero-content {
     .hero-subtitle {
       font-family: $font-play;

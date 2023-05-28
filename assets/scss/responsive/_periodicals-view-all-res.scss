@@ -1,0 +1,41 @@
+/* Tablet Layout wide: 991px. */
+@media only screen and (max-width: 991px) {
+  .periodicals-books-details-section .magazine-view-all-box .magazine-item {
+    width: 45%;
+    justify-content: space-between;
+  }
+}
+
+/* Tablet Layout landscape wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+  .periodicals-books-details-section .mobile-none {
+    display: none;
+  }
+  .periodicals-books-details-section .magazine-view-all-box .magazine-item {
+    width: 45%;
+  }
+}
+
+/* Small Device Layout wide: 599px. */
+
+@media only screen and (max-width: 599px) {
+  .periodicals-books-details-section .magazine-view-all-box {
+    margin-top: 25px;
+  }
+}
+/* Small Device Layout wide: 520px. */
+
+@media only screen and (max-width: 520px) {
+  .header-style-one-section.with-title .hero-area {
+    padding-bottom: 130px;
+  }
+}
+
+/* Mobile Device Layout wide: 340px. */
+
+@media only screen and (max-width: 340px) {
+  .header-style-one-section.with-title .hero-area {
+    padding-bottom: 85px;
+  }
+}

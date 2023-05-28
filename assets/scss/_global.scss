@@ -19,6 +19,69 @@
     max-width: 1285px;
   }
 }
+// selection color change
+::selection {
+  color: $color-white;
+  background-color: $color-hover;
+}
+
+// custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f6f6f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-hover;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $color-black;
+}
+
+// nice select reset
+.nice-select {
+  border-radius: 50px;
+  max-height: 38px;
+  // width: 102px;
+  line-height: 37px;
+  outline: none;
+  padding-left: 12px;
+  padding-right: 28px;
+  &.style-two {
+    // padding: 11px 16px;
+    border-color: $color-hover;
+    color: $color-white;
+    background-color: $color-hover;
+    &::after {
+      border-color: $color-white;
+    }
+  }
+  .option {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #231f1e;
+    padding: 16px 38px;
+    &:hover {
+      // background-color: transparent;
+      color: $color-hover;
+    }
+  }
+  &.open {
+    .list {
+      margin-top: 25px;
+    }
+  }
+  &:after {
+    height: 8px;
+    width: 8px;
+  }
+}
 
 // ------- reset default styles --------------------------------
 

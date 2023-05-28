@@ -2,7 +2,8 @@
 @import "global";
 
 
-// import components
+// ----------------------------import global components-----------------
+
 @import "./component/preloader";
 @import "./component/navbar";
 @import "./component/hero";
@@ -10,12 +11,28 @@
 @import "./component/footer";
 @import "./component/copyright";
 @import "./component/search-form";
+@import "./component/book-item";
+@import "./component/pagination-box";
+@import "./component/year-range-slider";
+@import "./component/filter-select-item";
+@import "./component/header";
+@import "./component/single-magazine-item";
+@import "./component/reset-filter-btn";
+@import "./component/breadcrumb";
 
 
-// import pages styles
+//--------- import pages styles-------------------
+
 @import "pages/index";
+@import "pages/books";
+@import "pages/book-details";
+@import "pages/periodicals";
+@import "pages/periodicals-view-all";
 
+// ---------------   import responsive styles  ---------------------
 
-// import responsive styles
-
-@import "responsive";
+@import "responsive/index-res";
+@import "responsive/books-res";
+@import "responsive/book-details-res";
+@import "responsive/periodicals-res";
+@import "responsive/periodicals-view-all-res";

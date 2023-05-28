@@ -1,0 +1,113 @@
+// magazine filter top
+.magazine-filter {
+  margin: 40px 0;
+  margin-top: 95px;
+  .top-title-box {
+    display: flex;
+    align-items: center;
+
+    .title {
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 125%;
+      color: $color-black;
+      font-family: $font-play;
+    }
+    .items-button-group {
+      margin-left: 50px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      li {
+        margin-right: 10px;
+        /* margin: 0 8px; */
+        position: relative;
+        margin-top: 10px;
+        &.active {
+          .btn-style-one {
+            color: $color-white;
+            background: $color-hover;
+            border-color: $color-hover;
+            svg {
+              path {
+                stroke: $color-white;
+              }
+            }
+          }
+        }
+        &:nth-child(1) {
+          &::after {
+            position: absolute;
+            left: -25px;
+            top: 50%;
+            width: 2px;
+            height: 35px;
+            transform: translate(-50%, -50%);
+            background-color: $color-gray;
+            content: "";
+          }
+        }
+      }
+
+      .btn-style-one {
+        color: $color-gray;
+        background-color: $color-white;
+        border-color: $color-gray;
+        max-height: 35px;
+        svg {
+          path {
+            stroke: $color-gray;
+          }
+        }
+        &:hover {
+          color: $color-white;
+          background: $color-hover;
+          border-color: $color-hover;
+          svg {
+            path {
+              stroke: $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// magazine items (spirit and al-risala)
+.magazine-items {
+  margin-bottom: 60px;
+  .section-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    .title {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 125%;
+      color: $color-black;
+      margin-bottom: 30px;
+      font-family: $font-play;
+    }
+    .view-btn {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 18px;
+      color: $color-black;
+      transition: all 0.5s ease;
+      &:hover {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 18px;
+        color: $color-hover;
+      }
+    }
+  }
+  .magazine-items-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

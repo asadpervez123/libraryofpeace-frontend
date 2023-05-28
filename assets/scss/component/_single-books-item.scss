@@ -1,6 +1,6 @@
 .single-books-item {
   margin-top: 75px;
-
+  // max-width: 220px;
   .img-box {
     display: flex;
     justify-content: center;
@@ -41,7 +41,6 @@
       padding: 14px 30px;
       min-width: 128px;
       max-height: 45px;
-
       &:hover {
         border-color: $color-hover;
         color: $color-white;
