@@ -1,0 +1,76 @@
+.filter-saved-book {
+  margin-bottom: 48px;
+  .nice-select {
+    margin-top: -17px;
+  }
+  .top-title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      font-family: $font-play;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 125%;
+      color: $color-black;
+      margin-right: 41px;
+      position: relative;
+      &::after {
+        position: absolute;
+        right: -20px;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        background-color: #7a808a;
+        content: "";
+        width: 2px;
+        height: 70%;
+      }
+    }
+    .items-button-group {
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 12px;
+        a {
+          cursor: pointer;
+          background-color: transparent;
+          border-color: #7a808a;
+          color: #7a808a;
+          padding: 12px 16px;
+          font-size: 20px;
+          svg {
+            path {
+              stroke: #7a808a;
+            }
+          }
+          &.active,
+          &:hover {
+            background-color: $color-hover;
+            border-color: $color-hover;
+            color: $color-white;
+            svg {
+              path {
+                stroke: $color-white;
+              }
+            }
+          }
+        }
+      }
+    }
+    .left-content {
+      display: flex;
+      .title {
+        white-space: nowrap;
+        font-size: 32px;
+      }
+    }
+  }
+}
+.filter-saved-book .nice-select {
+  border: 1px solid #7a808a;
+}
+.saved-book-table-section {
+  .pagination-box {
+    margin: 60px 0;
+  }
+}

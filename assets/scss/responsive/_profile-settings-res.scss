@@ -1,0 +1,83 @@
+/* Tablet Layout wide: 991px. */
+@media only screen and (max-width: 991px) {
+  .title-with-img-section .button-back {
+    margin-top: 35px;
+  }
+  .title-with-img-section .top-content-with-btn {
+    width: 70%;
+  }
+  .title-with-img-section .button-back {
+    margin-top: -15px;
+  }
+}
+
+/* Tablet Layout landscape wide: 768px. */
+
+@media only screen and (max-width: 768px) {
+  .title-with-img-section img {
+    min-height: 150px;
+  }
+  .title-with-img-section .button-back {
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .title-with-img-section .top-content-with-btn {
+    width: 80%;
+  }
+}
+/* Small Device Layout wide: 520px. */
+
+@media only screen and (max-width: 520px) {
+  .title-with-img-section .button-back .back-btn {
+    height: 45px;
+    width: 45px;
+  }
+  .title-with-img-section .button-back {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .title-with-img-section .top-content-with-btn {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .title-with-img-section .top-content-with-btn {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .title-with-img-section .right {
+    margin-left: 20px;
+  }
+  .title-with-img-section .content .title {
+    font-size: 24px;
+  }
+  .title-with-img-section .content .text {
+    white-space: inherit;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .title-with-img-section .button-back {
+    margin-top: -47px;
+  }
+}
+/* Mobile Device Layout wide: 320px. */
+
+@media only screen and (max-width: 320px) {
+  .title-with-img-section .content .text {
+    white-space: inherit;
+  }
+  .change-info-section .content .img-box {
+    flex-direction: column;
+  }
+  .change-info-section .content .img-box .about-img {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}

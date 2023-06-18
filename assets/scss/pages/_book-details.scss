@@ -101,6 +101,11 @@
   .description-area {
     margin-top: 70px;
     .des-item {
+      .nice-select {
+        .list {
+          left: 0%;
+        }
+      }
       &.language {
         margin-top: 10px;
       }
@@ -117,8 +122,6 @@
         font-size: 16px;
         line-height: 24px;
         color: #1c1f2c;
-        // width: 100%;
-        // min-width: 561px;
         span {
           font-weight: 600;
         }
@@ -126,6 +129,7 @@
     }
   }
 }
+
 // learn from this book table section style
 .learn-table-section {
   background: #f6f6f6;

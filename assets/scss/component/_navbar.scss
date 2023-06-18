@@ -67,6 +67,18 @@
       &:active {
         outline: none;
       }
+      &.with-img {
+        border: none;
+        img {
+          height: 44px;
+          width: 44px;
+          border: 1px solid #c5c5c5;
+          border-radius: 100px;
+        }
+        &:hover {
+          background-color: transparent !important;
+        }
+      }
       &.login {
         transition: all 0.3s ease;
         min-height: 44px;

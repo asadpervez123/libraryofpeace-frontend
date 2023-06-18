@@ -27,7 +27,9 @@
       }
     }
     .btn-style-one {
-      display: block;
+      display: inline-block;
+      width: 100%;
+      background-color: transparent;
       text-align: center;
       color: #231f1e;
       border-color: #231f1e;

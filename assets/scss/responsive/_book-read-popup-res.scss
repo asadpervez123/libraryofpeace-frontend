@@ -1,0 +1,240 @@
+/* Large Device Layout wide:  1200px. */
+@media only screen and (max-width: 1400px) {
+  .book-read-menu-section .top-fixed-area .content .left img {
+    min-width: 100px;
+    margin-right: 15px;
+  }
+  .book-read-menu-section .top-fixed-area .content .right {
+    width: 100%;
+  }
+  .book-read-menu-section .top-fixed-area .content .zoom,
+  .book-read-menu-section .top-fixed-area .content .copy-read {
+    margin: 0;
+  }
+  .book-read-menu-section .top-fixed-area .content .right {
+    margin-left: 25px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .book-read-menu-section .top-fixed-area .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .book-read-menu-section .top-fixed-area .content .font-cover-select {
+    width: 180px;
+  }
+  .book-read-menu-section .top-fixed-area .content .font-cover-select .current {
+    width: 145px;
+  }
+  .book-read-menu-section .top-fixed-area .content .search-form {
+    width: 190px;
+  }
+  .book-read-menu-section .top-fixed-area .content .next-prev button {
+    margin: 0 5px;
+  }
+  .book-read-menu-section .top-fixed-area .content .zoom button,
+  .book-read-menu-section .top-fixed-area .content .copy-read button {
+    margin: 0 5px;
+  }
+  .book-read-menu-section .top-fixed-area .content .others {
+    padding-right: 5px;
+  }
+  .book-read-menu-section .top-fixed-area .content .others .list {
+    left: -800%;
+    width: -webkit-fill-available;
+  }
+  // .book-read-section .book-wrapper .page-wrapper.current .page {
+  //   padding: 30px;
+  // }
+  .book-read-section .book-wrapper .page-wrapper.current .page.cover-page {
+    padding: 0;
+  }
+  .book-read-section.double-page .book-wrapper .page-wrapper.current {
+    width: 100%;
+    &::after {
+      display: none;
+    }
+  }
+  .book-read-section .book-wrapper .page-wrapper.current .page.cover-page {
+    margin: auto;
+    margin-bottom: 8px;
+  }
+}
+
+/* Tablet Layout wide: 991px. */
+@media only screen and (max-width: 991px) {
+  .book-read-menu-section .top-fixed-area .content .left .button-toggle {
+    display: inline-flex;
+  }
+  .book-section .container > .right .page-content {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .book-read-menu-section .top-fixed-area .content {
+    .right,
+    .middle {
+      transition: all 0.5s ease-in-out;
+      opacity: 0;
+    }
+    &.active-toggle {
+      .right,
+      .middle {
+        opacity: 100;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .book-read-menu-section .top-fixed-area .content {
+    display: block;
+  }
+  .book-read-menu-section .top-fixed-area .content {
+    .middle {
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+    .right {
+      margin-left: 0;
+    }
+  }
+  .book-read-menu-section .top-fixed-area .content .others {
+    padding-right: -150px;
+  }
+}
+
+/* Tablet Layout landscape wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+  .book-read-menu-section .top-fixed-area .content .font-cover-select .current {
+    width: 120px;
+  }
+  .book-read-menu-section .top-fixed-area .content .font-cover-select {
+    width: 150px;
+  }
+  .book-read-menu-section .top-fixed-area .content .middle {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    form,
+    .nice-select {
+      margin-top: 15px;
+      margin-left: 0;
+    }
+  }
+  .book-read-menu-section .top-fixed-area .content .middle,
+  .book-read-menu-section .top-fixed-area .content .right {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .book-read-section .book-wrapper .page-wrapper .page {
+    min-height: auto;
+  }
+  .book-read-section .book-wrapper .page-wrapper .page {
+    padding: 60px;
+  }
+  .book-read-section.double-page
+    .book-wrapper
+    .page-wrapper.current
+    .cover-page {
+    height: auto;
+  }
+  .book-section .container > .right .page-content {
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+
+/* Tablet Layout wide: 668px. */
+
+@media only screen and (max-width: 668px) {
+}
+
+/* Small Device Layout wide: 599px. */
+
+@media only screen and (max-width: 580px) {
+  .book-read-menu-section .top-fixed-area .content .middle {
+    // display: block;
+    form,
+    .nice-select {
+      width: 100%;
+      // &:nth-child(2){
+      margin-top: 0px;
+      // }
+      &.font-cover-select {
+        margin-top: 20px;
+      }
+      &.translate-to {
+        margin: 20px 0;
+      }
+      .list {
+        width: 100%;
+      }
+      .option {
+        width: 100%;
+      }
+      .current {
+        width: 100%;
+      }
+    }
+  }
+  .book-read-section .book-wrapper .page-wrapper .page .text {
+    font-size: 20px;
+  }
+  .book-read-menu-section
+    .top-fixed-area
+    .content
+    .copy-read
+    #book-read-double-page,
+  .book-read-menu-section .next-prev,
+  .book-read-section .book-section {
+    display: none;
+  }
+  .book-read-section .book-wrapper {
+    display: block;
+  }
+  // .book-section{
+  //   .container{
+  //     display: flex;
+  //   // flex-wrap: wrap;
+  //   flex-direction: column-reverse;
+  //   height: 100vh;
+  //   }
+  //   .right{
+  //     width: 100%;
+  //     position: relative;
+  //     z-index: auto;
+  //     margin-bottom: 15px;
+  //     &.flip{
+  //       transform: none;;
+  //     }
+  //     figure{
+  //       &.front, &.back{
+  //         // position: relative;
+  //         height: max-content;
+  //         min-height: 90vh;
+  //       }
+  //     }
+  //   }
+  // }
+}
+
+/* Small Device Layout wide: 480px. */
+
+@media only screen and (max-width: 480px) {
+  .book-read-section .book-wrapper .page-wrapper .page {
+    padding: 40px;
+  }
+  .book-read-section .book-wrapper .page-wrapper .page .text {
+    font-size: 17px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Mobile Device Layout wide: 380px. */
+
+@media only screen and (max-width: 380px) {
+  .book-read-section .book-wrapper .page-wrapper .page {
+    padding: 40px 20px;
+  }
+}

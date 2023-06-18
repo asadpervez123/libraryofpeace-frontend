@@ -11,6 +11,7 @@
 
 // bootstrap container reset
 @media (min-width: 1200px) {
+
   .container,
   .container-lg,
   .container-md,
@@ -19,6 +20,7 @@
     max-width: 1285px;
   }
 }
+
 // selection color change
 ::selection {
   color: $color-white;
@@ -52,31 +54,48 @@
   outline: none;
   padding-left: 12px;
   padding-right: 28px;
+
+  .list {
+    left: -100%;
+  }
+
   &.style-two {
     // padding: 11px 16px;
     border-color: $color-hover;
     color: $color-white;
     background-color: $color-hover;
+
     &::after {
       border-color: $color-white;
     }
   }
+
   .option {
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     color: #231f1e;
     padding: 16px 38px;
+
     &:hover {
       // background-color: transparent;
       color: $color-hover;
     }
   }
+
   &.open {
     .list {
+      right: inherit;
+      background: #FFFFFF;
+      border: 1px solid #EAECF0;
+      /* Filter shadow */
+
+      box-shadow: 0px 176px 70px rgba(0, 0, 0, 0.01), 0px 99px 59px rgba(0, 0, 0, 0.05), 0px 44px 44px rgba(0, 0, 0, 0.09), 0px 11px 24px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
       margin-top: 25px;
     }
   }
+
   &:after {
     height: 8px;
     width: 8px;
@@ -140,6 +159,9 @@ a {
 }
 
 // ----------------- Custom classes ----------------
+.logo-mb {
+  width: 80%;
+}
 
 .section-padding {
   padding: 120px 0;
@@ -159,6 +181,7 @@ a {
   text-decoration: none;
   transition: all 0.3s ease;
   display: inline-block;
+
   &:hover {
     background: $color-hover;
     color: $color-white;

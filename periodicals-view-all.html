@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Center For Peace and Spirituality - USA</title>
     <!-- favicon img -->
-    <link rel="icon" type="image/x-icon" href="assets/img/index/logo.png" />
+    <link rel="icon" type="image/x-icon" href="assets/img/index/logo.svg" />
     <!-- font awesome cdn  -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- Bootstrap css  -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- jquery ion-slier css-->
-    <link rel="stylesheet" href="assets/css/ion-slider.min.css" />
     <!-- jquery nice select css -->
     <link rel="stylesheet" href="assets/css/jquery-nice-select.min.css" />
     <!-- Custom css styles -->
@@ -37,8 +34,8 @@
       <div class="navbar-area">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="./">
-              <img src="./assets/img/index/logo.png" alt="logo" />
+            <a class="navbar-brand" href="index.html">
+              <img src="./assets/img/index/logo.svg" alt="logo" />
             </a>
             <button
               class="navbar-toggler collapsed"
@@ -47,8 +44,7 @@
               data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+              aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
               <span class="navbar-toggler-icon"></span>
               <span class="navbar-toggler-icon"></span>
@@ -67,13 +63,11 @@
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <div
-                  class="button-group d-flex justify-content-center align-items-center"
-                >
+                  class="button-group d-flex justify-content-center align-items-center">
                   <a
-                    href="./login.html"
+                    href="signin.html"
                     class="btn login my-2 my-sm-0"
-                    type="button"
-                  >
+                    type="button">
                     SIGN IN
                   </a>
                 </div>
@@ -91,8 +85,7 @@
       class="breadcrumb-section"
       style="
         background-image: url(./assets/img/periodicals-view-all/p-v-all-bg.png);
-      "
-    >
+      ">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -120,8 +113,7 @@
                         data-toggle="collapse"
                         data-target="#collapseOne"
                         aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
+                        aria-controls="collapseOne">
                         Years <i class="fa-solid fa-chevron-up"></i>
                       </button>
                     </div>
@@ -130,68 +122,58 @@
                       id="collapseOne"
                       class="collapse show"
                       aria-labelledby="headingOne"
-                      data-parent="#accordionExample"
-                    >
+                      data-parent="#accordionExample">
                       <div class="card-body">
                         <form class="catagroy-form">
-                          <label class="control control--checkbox"
-                            >2023
+                          <label class="control control--checkbox">2023
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2022
+                          <label class="control control--checkbox">2022
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2021
+                          <label class="control control--checkbox">2021
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2020
+                          <label class="control control--checkbox">2020
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2019
+                          <label class="control control--checkbox">2019
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2018
+                          <label class="control control--checkbox">2018
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2017
+                          <label class="control control--checkbox">2017
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2016
+                          <label class="control control--checkbox">2016
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
                             </div>
                           </label>
-                          <label class="control control--checkbox"
-                            >2015
+                          <label class="control control--checkbox">2015
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
@@ -199,8 +181,7 @@
                           </label>
                           <label
                             id="select-all"
-                            class="control control--checkbox"
-                            >Select All
+                            class="control control--checkbox">Select All
                             <div class="name">
                               <input type="checkbox" />
                               <div class="control__indicator"></div>
@@ -232,9 +213,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
                 <div class="magazine-item">
@@ -244,9 +224,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
                 <div class="magazine-item">
@@ -256,9 +235,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
                 <div class="magazine-item">
@@ -268,10 +246,10 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
+
                 </div>
                 <div class="magazine-item">
                   <div class="img-box">
@@ -280,9 +258,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
                 <div class="magazine-item">
@@ -292,9 +269,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
                 <div class="magazine-item">
@@ -304,9 +280,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
                 <div class="magazine-item">
@@ -316,9 +291,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
                 <div class="magazine-item">
@@ -328,9 +302,8 @@
                   <div class="content">
                     <h4 class="mag-title">The Spirit Of Islam</h4>
                     <p>Published: <span>Jan - Feb, 2023</span></p>
-                    <a href="./periodicals-view-all.html" class="btn-style-one"
-                      >Read Now</a
-                    >
+                    <button onclick="openPdfReader()" class="btn-style-one">Read
+                      Now</button>
                   </div>
                 </div>
               </div>
@@ -370,7 +343,7 @@
         <div class="footer-content">
           <div class="footer-item">
             <div class="about">
-              <img src="assets/img/index/logo-color.png" alt="logo" />
+              <img src="assets/img/index/logo-color.svg" alt="logo" />
               <p>
                 Maulana Wahiduddin Khan is an Islamic spiritual scholar who has
                 adopted peace as the mission of his life. Known for his Gandhian
@@ -472,6 +445,1179 @@
     </section>
     <!-- copyright section end here  -->
 
+       <!-- *** book read popup section start here -->
+    <!-- menu for book read area-->
+    <section class="book-read-menu-section">
+      <div class="top-fixed-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="content">
+                <div class="left">
+                  <img src="assets/img/icons/logo.svg" alt="logo" />
+                  <button onclick="togglePdfMenu()" class="button-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+                <div class="middle">
+                  <select class="font-cover-select">
+                    <option data-display="Font cover">Font cover</option>
+                    <option>01. Opening</option>
+                    <option>02. Family of imran</option>
+                    <option>03. The spolis of</option>
+                    <option>04. Lorem ipsum dolor.</option>
+                    <option>
+                      05. Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit. Incidunt aperiam facere unde, a expedita blanditiis
+                      magnam velit corrupti quia quos?
+                    </option>
+                  </select>
+                  <select class="translate-to">
+                    <option data-display="Translate to">Translate to</option>
+                    <option>English</option>
+                    <option>Spanish</option>
+                    <option>Urdu</option>
+                    <option>Arabic</option>
+                  </select>
+                  <form class="search-form">
+                    <input type="text" placeholder="Search in the book" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </form>
+                </div>
+                <div class="right flex-wrap">
+                  <div class="d-none next-prev text-nowrap">
+                    <button id="prev-btn"  onclick="turnLeft()">
+                      <img src="assets/img/icons/prev.svg" alt="icon" />
+                    </button>
+                    <button id="next-btn" onclick="turnRight()">
+                      <img src="assets/img/icons/next.svg" alt="icon" />
+                    </button>
+                  </div>
+                  <div class="zoom text-nowrap">
+                    <button id="zoom-in-btn">
+                      <img src="assets/img/icons/zoom-in.svg" alt="icon" />
+                    </button>
+                    <button id="zoom-out-btn">
+                      <img src="assets/img/icons/zoom-out.svg" alt="icon" />
+                    </button>
+                  </div>
+                  <button id="book-mark">
+                    <img src="assets/img/icons/bookmark.svg" alt="icon" />
+                  </button>
+                  <div class="copy-read">
+                    <button id="copy">
+                      <img src="assets/img/icons/copy.svg" alt="icon" />
+                    </button>
+                    <button id="book-read-double-page">
+                      <img src="assets/img/icons/book.svg" alt="icon" />
+                    </button>
+                  </div>
+                  <select class="others">
+                    <option class="show-others"></option>
+                    <option>Share</option>
+                    <option>Embed</option>
+                    <option>Buy this book</option>
+                    <option>Find a library</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- selection popup btns area -->
+    <div class="selection-popup-btns-wrapper">
+      <div id="book-read-selection-popup">
+        <button id="translateBtn">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_181_43116)">
+              <path
+                d="M3.33203 4.16675H9.16536"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.4987 2.5V4.16667C7.4987 7.84833 5.63286 10.8333 3.33203 10.8333"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M4.16797 7.5C4.16547 9.28667 6.62797 10.7567 9.7513 10.8333"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10 16.6667L13.3333 9.16675L16.6667 16.6667"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.9167 15H10.75"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_181_43116">
+                <rect width="20" height="20" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        <button id="sourceBtn">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_181_43124)">
+              <path
+                d="M5 12.5H17.5"
+                stroke="white"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.5 15.8333H5"
+                stroke="white"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.5 9.16675H17.5"
+                stroke="white"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.5 5.83325H12.5"
+                stroke="white"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.5 7.49992H8.33333C8.49815 7.49992 8.65927 7.54879 8.79631 7.64036C8.93335 7.73193 9.04016 7.86208 9.10323 8.01435C9.16631 8.16662 9.18281 8.33418 9.15065 8.49583C9.1185 8.65748 9.03913 8.80596 8.92259 8.92251C8.80605 9.03905 8.65756 9.11842 8.49591 9.15057C8.33426 9.18273 8.1667 9.16622 8.01443 9.10315C7.86216 9.04008 7.73201 8.93327 7.64044 8.79623C7.54887 8.65919 7.5 8.49807 7.5 8.33325V6.24992C7.5 5.80789 7.6756 5.38397 7.98816 5.07141C8.30072 4.75885 8.72464 4.58325 9.16667 4.58325"
+                stroke="white"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2.5 7.49992H3.33333C3.49815 7.49992 3.65927 7.54879 3.79631 7.64036C3.93335 7.73193 4.04016 7.86208 4.10323 8.01435C4.16631 8.16662 4.18281 8.33418 4.15065 8.49583C4.1185 8.65748 4.03913 8.80596 3.92259 8.92251C3.80605 9.03905 3.65756 9.11842 3.49591 9.15057C3.33426 9.18273 3.1667 9.16622 3.01443 9.10315C2.86216 9.04008 2.73201 8.93327 2.64044 8.79623C2.54887 8.65919 2.5 8.49807 2.5 8.33325V6.24992C2.5 5.80789 2.67559 5.38397 2.98816 5.07141C3.30072 4.75885 3.72464 4.58325 4.16667 4.58325"
+                stroke="white"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_181_43124">
+                <rect width="20" height="20" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        <button id="copyBtn">
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_181_43132)">
+              <path
+                d="M19.0013 10.6667H12.3346C11.4142 10.6667 10.668 11.4129 10.668 12.3334V19.0001C10.668 19.9206 11.4142 20.6667 12.3346 20.6667H19.0013C19.9218 20.6667 20.668 19.9206 20.668 19.0001V12.3334C20.668 11.4129 19.9218 10.6667 19.0013 10.6667Z"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.332 10.6666V8.99992C17.332 8.55789 17.1564 8.13397 16.8439 7.82141C16.5313 7.50885 16.1074 7.33325 15.6654 7.33325H8.9987C8.55667 7.33325 8.13275 7.50885 7.82019 7.82141C7.50763 8.13397 7.33203 8.55789 7.33203 8.99992V15.6666C7.33203 16.1086 7.50763 16.5325 7.82019 16.8451C8.13275 17.1577 8.55667 17.3333 8.9987 17.3333H10.6654"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_181_43132">
+                <rect
+                  width="20"
+                  height="20"
+                  fill="white"
+                  transform="translate(4 4)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        <button id="share-tweet">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_479_27060)">
+              <path
+                d="M18.3346 3.34168C17.5013 3.75001 16.6846 3.91584 15.8346 4.16668C14.9005 3.11251 13.5155 3.05418 12.1846 3.55251C10.8538 4.05084 9.98214 5.26918 10.0013 6.66668V7.50001C7.29714 7.56918 4.8888 6.33751 3.33464 4.16668C3.33464 4.16668 -0.150365 10.3608 6.66797 13.3333C5.10797 14.3725 3.55214 15.0733 1.66797 15C4.42464 16.5025 7.4288 17.0192 10.0296 16.2642C13.013 15.3975 15.4646 13.1617 16.4055 9.81251C16.6861 8.7939 16.8255 7.74156 16.8196 6.68501C16.8196 6.47751 18.078 4.37501 18.3346 3.34084V3.34168Z"
+                stroke="#7A808A"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_479_27060">
+                <rect width="20" height="20" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- translate box area -->
+    <div id="book-read-translate-box" class="translate-box">
+      <div class="wrapper">
+        <div class="content">
+          <div class="btns">
+            <select>
+              <option data-display="English">English</option>
+              <option>Spanish</option>
+              <option>Urdu</option>
+              \
+              <option>Hindi</option>
+              <option>Arabic</option>
+            </select>
+            <button id="reverse-btn" class="reverse">
+              <img src="assets/img/icons/reverse.png" alt="icon" />
+            </button>
+            <select>
+              <option data-display="Arabic">Arabic</option>
+              <option>English</option>
+              <option>Urdu</option>
+              \
+              <option>Hindi</option>
+              <option>Bangla</option>
+            </select>
+          </div>
+          <div class="bottom-area">
+            <textarea
+              name="from-lang"
+              id="from-lang"
+              class="from-lang"
+              placeholder="Believe and trust in their Lord. His"
+            ></textarea>
+            <button id="translate-btn" class="btn-style-one">Translate</button>
+            <textarea
+              name="to-lang"
+              id="to-lang"
+              class="to-lang"
+              placeholder=" و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني "
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- resource box area -->
+    <div id="book-read-resource-box" class="resource-box">
+      <div class="top-text-area">
+        <h2 class="title">
+          What God most earnestly desires from human beings is worship. The
+          Quran says: “I have not created jinn and mankind except to worship
+          Me.” ( 51:56 )
+        </h2>
+      </div>
+      <hr />
+      <div class="nav-tabs-area">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="pills-home-tab"
+              data-toggle="pill"
+              href="#pills-home"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+              >MLA</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-profile-tab"
+              data-toggle="pill"
+              href="#pills-profile"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+              >APA</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-contact-tab"
+              data-toggle="pill"
+              href="#pills-contact"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+              >CHICAGO</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div class="text-area-box">
+              <textarea
+                class="tab-resource"
+                placeholder="What God most earnestly desires from human beings is worship. The Quran says: “I have not created jinn and mankind except to worship Me.” ( 51:56 )"
+              ></textarea>
+              <img
+                class="resource-copy-btn"
+                src="assets/img/icons/copy-two.svg"
+                alt="icon"
+              />
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+            <div class="text-area-box">
+              <textarea
+                class="tab-resource"
+                placeholder="What God most earnestly desires from human beings is worship. The Quran says: “I have not created jinn and mankind except to worship Me.” ( 51:56 )"
+              ></textarea>
+              <img
+                class="resource-copy-btn"
+                src="assets/img/icons/copy-two.svg"
+                alt="icon"
+              />
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-contact"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+          >
+            <div class="text-area-box">
+              <textarea
+                class="tab-resource"
+                placeholder="What God most earnestly desires from human beings is worship. The Quran says: “I have not created jinn and mankind except to worship Me.” ( 51:56 )"
+              ></textarea>
+              <img
+                class="resource-copy-btn"
+                src="assets/img/icons/copy-two.svg"
+                alt="icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- book read area  -->
+    <section class="book-read-section">
+      <!-- single page mode  -->
+      <ul class="book-wrapper">
+        <li class="page-wrapper">
+          <div class="cover-page page">
+            <img src="assets/img/icons/book.png" alt="img" />
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page d-flex flex-column-reverse">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page d-flex flex-column-reverse">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page d-flex flex-column-reverse">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page d-flex flex-column-reverse">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+        <li class="page-wrapper">
+          <div class="page">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              repellendus quasi dolore minima eveniet ad nobis ea quis possimus,
+              aspernatur necessitatibus sunt debitis cum autem voluptatem,
+              impedit quibusdam? Libero, placeat. Ullam similique ea dignissimos
+              fugiat reprehenderit labore nulla? Aperiam totam ea neque
+              voluptates sint quisquam facere libero natus iure quo?
+            </p>
+            <p class="text">
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟
+            </p>
+          </div>
+        </li>
+      </ul>
+      <!-- double page mode  -->
+      <div class="d-none book-section double-page-mode">
+        <div class="container">
+          <div class="right">
+            <figure class="back" id="back-cover"></figure>
+            <figure
+              class="front d-flex h-100 align-items-center justify-content-center"
+            >
+              <h2>The End</h2>
+            </figure>
+          </div>
+          <div class="right">
+            <figure class="back">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>  
+              </div>
+            </figure>
+            <figure class="front">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+          </div>
+          <div class="right">
+            <figure class="back">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+            <figure class="front">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+          </div>
+          <div class="right">
+            <figure class="back">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+            <figure class="front">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+          </div>
+          <div class="right">
+            <figure class="back">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+            <figure class="front">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+          </div>
+          <div class="right">
+            <figure class="back">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+            <figure class="front">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+          </div>
+          <div class="right">
+            <figure class="back">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+            <figure class="front">
+              <div class="page-content">
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+                <p class="text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum repellendus quasi dolore minima eveniet ad nobis ea quis
+                  possimus, aspernatur necessitatibus sunt debitis cum autem
+                  voluptatem, impedit quibusdam? Libero, placeat. Ullam
+                  similique ea dignissimos fugiat reprehenderit labore nulla?
+                  Aperiam totam ea neque voluptates sint quisquam facere libero
+                  natus iure quo?
+                </p>
+                <p class="text">
+                  و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
+                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
+                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
+                </p>
+              </div>
+            </figure>
+          </div>
+          <div class="right">
+            <figure class="back"></figure>
+            <figure
+              class="front"
+              id="cover"
+              style="background-image: url('./assets/img/icons/book.png')"
+            ></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ****** book read popup section start here -->
+
     <!-- All js file goes here -->
     <!-- Jquery js  -->
     <script src="assets/js/jquery-3.7.0.min.js"></script>
@@ -479,11 +1625,11 @@
     <script src="assets/js/popper.min.js"></script>
     <!-- Bootstrap js  -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Jquery ion slider js  -->
-    <script src="assets/js/jquery-ion-slider.min.js"></script>
     <!-- jquery nice select -->
     <script src="assets/js/jquery-nice-select.min.js"></script>
     <!-- Custom Script -->
     <script src="./assets/js/script.js"></script>
+    <!-- Custom script js for book reader -->
+    <script src="assets/js/read-book.js"></script>
   </body>
 </html>

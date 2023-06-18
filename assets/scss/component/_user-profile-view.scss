@@ -1,0 +1,118 @@
+.user-profile-view {
+  margin-bottom: 60px;
+  margin-top: 145px;
+  .content {
+    border: 1px solid #ededed;
+    border-radius: 15px;
+    padding: 16px;
+    .bg-img {
+      position: relative;
+      .user-img {
+        position: absolute;
+        height: 156px;
+        width: 152px;
+        left: 2%;
+        bottom: -20px;
+        border-radius: 50%;
+        border: 2px solid $color-white;
+      }
+    }
+    .designation {
+      margin-top: 35px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 25px;
+      .left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .identity {
+          .name {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 125%;
+            color: $color-black;
+          }
+          .email {
+            white-space: nowrap;
+            font-weight: 400;
+            font-size: 24px;
+            // line-height: 125%;
+            color: #7a808a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i {
+              font-size: 20px;
+              color: #7a808a;
+              margin-right: 8px;
+            }
+          }
+        }
+        .edit-btn {
+          height: 41px;
+          width: 91px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 125%;
+          color: $color-white;
+          border-radius: 100px;
+          background-color: $color-hover;
+          transition: all 0.3s ease;
+          border: 1px solid $color-hover;
+          white-space: nowrap;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px;
+          margin-left: 30px;
+          &:hover {
+            border-color: $color-black;
+            background-color: transparent;
+            color: $color-black;
+          }
+        }
+      }
+      .btn-groups {
+        display: flex;
+        .btn-round {
+          height: 54px;
+          // width: 91px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 125%;
+          color: $color-black;
+          border-radius: 100px;
+          padding: 17px 20px;
+          background-color: transparent;
+          transition: all 0.3s ease;
+          border: 1px solid $color-black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          white-space: nowrap;
+          svg {
+            margin-right: 8px;
+            path {
+              stroke: $color-black;
+            }
+          }
+          &:hover {
+            border-color: $color-hover;
+            color: $color-white;
+            background-color: $color-hover;
+            svg {
+              path {
+                stroke: $color-white;
+              }
+            }
+          }
+          &:first-child {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,199 @@
+/* Large Device Layout wide:  1200px. */
+@media only screen and (max-width: 1200px) {
+  .user-profile-view .content .bg-img .user-img {
+    height: 120px;
+    width: 116px;
+    left: 2%;
+    bottom: -40px;
+  }
+  .saved-book-table-section {
+    overflow-x: scroll;
+  }
+}
+
+/* Tablet Layout wide: 991px. */
+@media only screen and (max-width: 991px) {
+  .user-profile-view .content .designation .left .name {
+    font-size: 24px;
+  }
+  .user-profile-view .content .designation .left .email {
+    font-size: 20px;
+  }
+  .user-profile-view .content .designation .edit-btn {
+    font-size: 18px;
+    padding: 8px 26px;
+  }
+  .user-profile-view .content .bg-img .user-img {
+    height: 115px;
+    width: 111px;
+    left: 3%;
+    bottom: -31px;
+  }
+  .filter-saved-book .top-title-box .items-button-group li a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .user-profile-view .content .designation {
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .user-profile-view .content .designation .left {
+    width: 100%;
+  }
+  .user-profile-view .content .designation .btn-groups .btn-round {
+    height: 45px;
+  }
+}
+
+/* Tablet Layout landscape wide: 768px. */
+
+@media only screen and (max-width: 768px) {
+  .user-profile-view .content .designation .btn-groups .btn-round {
+    height: 45px;
+    padding: 0 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .user-profile-view .content .bg-img .bg {
+    height: 120px;
+  }
+  .user-profile-view .content .bg-img .user-img {
+    bottom: -30px;
+  }
+  .user-profile-view .content .designation .left .name {
+    font-size: 28px;
+  }
+  .user-profile-view .content .designation .left .email {
+    font-size: 18px;
+  }
+  .user-profile-view .content .designation .edit-btn {
+    font-size: 16px;
+    padding: 9px 29px;
+  }
+  .filter-saved-book .top-title-box {
+    flex-wrap: wrap;
+  }
+  .filter-saved-book .nice-select {
+    margin-top: 10px;
+  }
+  .user-profile-view .content .bg-img .user-img {
+    left: 5%;
+  }
+  .user-profile-view .content .designation .left .edit-btn {
+    margin-left: 15px;
+  }
+}
+
+/* Tablet Layout wide: 668px. */
+
+@media only screen and (max-width: 699px) {
+  .filter-saved-book .top-title-box .left-content {
+    flex-wrap: wrap;
+  }
+  .filter-saved-book .top-title-box .items-button-group {
+    margin-top: 15px;
+  }
+  .filter-saved-book .top-title-box .left-content .title:after {
+    display: none;
+  }
+  .saved-book-table thead th {
+    font-size: 16px;
+    padding: 13px 5px;
+  }
+  .saved-book-table tbody tr .img-with-text .about .name {
+    font-size: 16px;
+  }
+  .saved-book-table tbody tr .img-with-text .about .pub {
+    font-size: 14px;
+  }
+  .saved-book-table tbody tr .read .read-percentage-box .main-line {
+    width: 200px;
+  }
+  .saved-book-table tbody tr .read .read-percentage-box .percent {
+    width: 200px;
+  }
+}
+
+/* Small Device Layout wide: 599px. */
+
+@media only screen and (max-width: 580px) {
+  .user-profile-view .content .designation .left {
+    flex-wrap: wrap;
+  }
+  .user-profile-view .content .designation .left .edit-btn {
+    margin-left: 0;
+  }
+}
+/* Small Device Layout wide: 520px. */
+
+@media only screen and (max-width: 540px) {
+  .user-profile-view .content .designation .left .edit-btn {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .user-profile-view .content .designation .btn-groups .btn-round {
+    height: 40px;
+  }
+  .magazine-items .section-top .view-btn {
+    font-size: 16px;
+  }
+}
+
+/* Small Device Layout wide: 480px. */
+
+@media only screen and (max-width: 480px) {
+  .user-profile-view .content .designation {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 0;
+  }
+  .user-profile-view .content .bg-img .user-img {
+    left: 0;
+  }
+}
+
+/* Small Device Layout wide: 420px. */
+
+@media only screen and (max-width: 420px) {
+  .filter-saved-book .top-title-box .items-button-group {
+    flex-wrap: wrap;
+  }
+  .filter-saved-book .top-title-box .items-button-group li {
+    margin-top: 15px;
+  }
+  .user-profile-view .content .designation .btn-groups {
+    flex-wrap: wrap;
+  }
+}
+
+/* Mobile Device Layout wide: 380px. */
+
+@media only screen and (max-width: 380px) {
+  .user-profile-view .content .designation .left .identity .name {
+    font-size: 24px;
+  }
+  .user-profile-view .content .designation .left .identity .email {
+    font-size: 15px;
+  }
+  .user-profile-view .content .designation .btn-groups .btn-round:nth-child(2) {
+    margin-top: 10px;
+  }
+}
+
+/* Mobile Device Layout wide: 340px. */
+
+@media only screen and (max-width: 340px) {
+}
+
+/* Mobile Device Layout wide: 320px. */
+
+@media only screen and (max-width: 320px) {
+  .user-profile-view .content .designation .left .identity .name {
+    font-size: 22px;
+  }
+  .user-profile-view .content .designation .left .identity .email {
+    font-size: 13px;
+  }
+}

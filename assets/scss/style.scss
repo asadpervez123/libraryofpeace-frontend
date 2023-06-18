@@ -1,7 +1,6 @@
 // global styles
 @import "global";
 
-
 // ----------------------------import global components-----------------
 
 @import "./component/preloader";
@@ -19,8 +18,11 @@
 @import "./component/single-magazine-item";
 @import "./component/reset-filter-btn";
 @import "./component/breadcrumb";
-
-
+@import "./component/single-search-item";
+@import "./component/single-search-item";
+@import "./component/user-profile-view";
+@import "./component/saved-book-table";
+@import "./component/book-read-popup";
 //--------- import pages styles-------------------
 
 @import "pages/index";
@@ -28,6 +30,10 @@
 @import "pages/book-details";
 @import "pages/periodicals";
 @import "pages/periodicals-view-all";
+@import "pages/search";
+@import "pages/profile";
+@import "pages/profile-settings";
+@import "pages/signin";
 
 // ---------------   import responsive styles  ---------------------
 
@@ -36,3 +42,8 @@
 @import "responsive/book-details-res";
 @import "responsive/periodicals-res";
 @import "responsive/periodicals-view-all-res";
+@import "responsive/profile-res";
+@import "responsive/profile-settings-res";
+@import "responsive/search-res";
+@import "responsive/signin-res";
+@import "responsive/book-read-popup-res";

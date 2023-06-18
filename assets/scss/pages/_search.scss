@@ -1,0 +1,37 @@
+.search-section {
+  padding: 60px 0;
+  ul {
+    margin-bottom: 0;
+  }
+
+  .filter-select-item .control {
+    margin-bottom: 15px;
+  }
+
+  .pagination-box {
+    margin-top: 60px;
+    margin-bottom: 0;
+    li {
+      margin: 0 8px;
+    }
+  }
+  .right-side-content {
+    .all-books {
+      .top-content {
+        .top-title {
+          font-family: $font-play;
+          font-weight: 400;
+          font-size: 32px;
+          margin-bottom: 27px;
+          color: #1c1f2c;
+          .items {
+            font-weight: 400;
+            font-size: 24px;
+            color: #7a808a;
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+  }
+}

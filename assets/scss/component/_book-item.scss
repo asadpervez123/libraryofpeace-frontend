@@ -2,8 +2,10 @@
   width: 23%;
   margin-bottom: 32px;
   max-width: 220px;
+
   .img-box {
     position: relative;
+
     .fav {
       position: absolute;
       right: 4%;
@@ -17,6 +19,7 @@
       align-items: center;
       cursor: pointer;
       transition: all 0.3s ease;
+
       &.active,
       &:hover {
         background-color: $color-hover;
@@ -24,6 +27,7 @@
       }
     }
   }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -37,6 +41,7 @@
       line-height: 120%;
       color: #231f1e;
     }
+
     .des {
       li {
         font-weight: 500;
@@ -44,11 +49,13 @@
         line-height: 135%;
         color: rgb(142, 147, 156);
         margin-bottom: 5px;
+
         span {
           color: rgb(68, 65, 64);
         }
       }
     }
+
     .btn-style-one {
       color: #231f1e;
       border-color: #231f1e;

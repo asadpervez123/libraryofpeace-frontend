@@ -5,6 +5,9 @@
     padding-top: 115px;
     padding-bottom: 155px;
   }
+  &.with-search {
+    padding: 175px 0;
+  }
 
   .hero-content {
     .hero-subtitle {
@@ -17,7 +20,6 @@
     }
     .hero-title {
       margin-bottom: 25px;
-      // white-space: nowrap;
     }
     .hero-text {
       max-width: 827px;

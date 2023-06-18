@@ -1,0 +1,60 @@
+/* Tablet Layout wide: 991px. */
+@media only screen and (max-width: 991px) {
+  .sign-in-section .right-content {
+    display: none;
+  }
+  .sign-in-section .left-content {
+    width: 100%;
+  }
+  .sign-in-section .left-content .form-area {
+    margin: 80px 0;
+  }
+}
+
+/* Small Device Layout wide: 480px. */
+
+@media only screen and (max-width: 480px) {
+  .sign-in-section .left-content .form-area {
+    margin: 40px 0;
+  }
+}
+
+/* Small Device Layout wide: 420px. */
+
+@media only screen and (max-width: 420px) {
+  .sign-in-section .left-content .heading .title {
+    font-size: 38px;
+    margin-bottom: 25px;
+  }
+  .sign-in-section .left-content .heading .sub-title {
+    font-size: 28px;
+  }
+}
+
+/* Mobile Device Layout wide: 380px. */
+
+@media only screen and (max-width: 380px) {
+  .sign-in-section .left-content .heading .title {
+    margin-bottom: 24px;
+  }
+  .change-info-section {
+    margin-bottom: 60px;
+  }
+}
+
+/* Mobile Device Layout wide: 340px. */
+
+@media only screen and (max-width: 350px) {
+  .sign-in-section .left-content .heading .title {
+    font-size: 30px;
+  }
+  .sign-in-section .left-content .heading .sub-title {
+    font-size: 26px;
+  }
+  .sign-in-section .left-content .form-group.form-check {
+    flex-direction: column;
+  }
+  .sign-in-section .left-content .form-group.form-check a {
+    margin-top: 15px;
+  }
+}

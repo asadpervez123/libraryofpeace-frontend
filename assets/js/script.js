@@ -141,7 +141,10 @@ document.querySelector(".js-range-slider") &&
     });
   })();
 
-// click to reset all select  elements
+///////////////////////////////////////////////////////////////////
+// *********   click to reset all select  elements ********** //
+///////////////////////////////////////////////////////////////////
+
 let resetFilterBtn = document.querySelector("#reset-filter-btn");
 resetFilterBtn &&
   resetFilterBtn.addEventListener("click", (e) => {
@@ -151,7 +154,9 @@ resetFilterBtn &&
     });
   });
 
-// click select all to select all elements
+///////////////////////////////////////////////////////////////////
+// *********   click select all to select all elements ********** //
+///////////////////////////////////////////////////////////////////
 
 let selectAllBtn = document.querySelector("#select-all");
 
@@ -167,3 +172,70 @@ selectAllBtn &&
         : (item.checked = false);
     });
   });
+
+// percentage line width change
+
+const percentageBox = document.querySelectorAll(".read-percentage-box");
+
+percentageBox &&
+  percentageBox.forEach((item) => {
+    let percent = item.querySelector(".percent").innerHTML;
+    let percentageLine = item.querySelector(".percentage-line");
+    percentageLine
+      ? (percentageLine.style.width = percent)
+      : (percentageLine.style.width = "0%");
+  });
+
+///////////////////////////////////////////////////////////////////
+// *********   click to add or remove bookmark on profile page  ********** //
+///////////////////////////////////////////////////////////////////
+
+let bookmarkBtns = document.querySelectorAll(".bookmark-btn");
+
+bookmarkBtns &&
+  bookmarkBtns.forEach((item) => {
+    item.addEventListener("click", () => item.classList.toggle("active"));
+  });
+
+///////////////////////////////////////////////////////////////////
+// *********   click to add or remove bookmark on pdf read page  ********** //
+///////////////////////////////////////////////////////////////////
+
+let bookmarkPdfBtns = document.querySelectorAll(".book-read-popup #book-mark");
+
+bookmarkPdfBtns &&
+  bookmarkPdfBtns.forEach((item) => {
+    item.addEventListener("click", () => {
+      let img = item.querySelector("img");
+      let src1 = img.src.split("/")[5];
+      if (src1 == "icons") {
+        img.src = "assets/img/profile/bookmark.svg";
+      } else {
+        img.src = "assets/img/icons/bookmark.svg";
+      }
+    });
+  });
+
+// pagination functionality
+
+// let paginationBox = document.querySelectorAll(".pagination-box .pagination");
+
+// paginationBox &&
+//   paginationBox.forEach((pagination) => {
+//     let items = pagination.querySelectorAll("li");
+//     items.forEach((item) => {
+//       item.addEventListener("click", (e) => {
+//         if (item.classList.contains("active")) {
+//           return false;
+//         } else {
+//           if (
+// /         !item.classList.contains("page-next") &&
+//  /           !item.classList.contains("page-prev")
+//           ) {
+//             items.forEach((li) => li.classList.remove("active"));
+//             item.classList.add("active");
+//           }
+//         }
+//       });
+//     });
+//   });
